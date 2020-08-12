@@ -393,29 +393,20 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.4297218155197658,
-            "y": 0.3563218390804597,
-            "uniqueID": 466319,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 4",
-                    "ioValue": 10
-                }
-            ]
+            "atomType": "Add BOM Tag",
+            "name": "Add BOM Tag",
+            "x": 0.2527254707631318,
+            "y": 0.4099616858237548,
+            "uniqueID": 660638,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "Stepper Motor with Leadscrew",
+                "numberNeeded": 1,
+                "costUSD": 25.99,
+                "source": "https://www.amazon.com/gp/product/B01DVD87Q6/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1",
+                "totalNeeded": 1,
+                "radius": 0.015384615384615385
+            }
         },
         {
             "atomType": "Molecule",
@@ -526,20 +517,29 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Add BOM Tag",
-            "name": "Add BOM Tag",
-            "x": 0.42120911793855303,
-            "y": 0.7547892720306513,
-            "uniqueID": 660638,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "Stepper Motor with Leadscrew",
-                "numberNeeded": 1,
-                "costUSD": 25.99,
-                "source": "https://www.amazon.com/gp/product/B01DVD87Q6/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1",
-                "totalNeeded": 1,
-                "radius": 0.015384615384615385
-            }
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.48761149653121905,
+            "y": 0.4482758620689655,
+            "uniqueID": 466319,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 5",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Molecule",
@@ -816,16 +816,17 @@
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 383071,
-            "ap2ID": 466319
+            "ap2ID": 660638
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap2Name": "3D shape 5",
             "ap2Primary": false,
-            "ap1ID": 466319
+            "ap1ID": 660638,
+            "ap2ID": 466319
         },
         {
             "ap1Name": "Geometry",
@@ -833,6 +834,12 @@
             "ap2Primary": false,
             "ap1ID": 949478,
             "ap2ID": 466319
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 466319
         },
         {
             "ap1Name": "Geometry",
