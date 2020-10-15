@@ -2,8 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Stepper Motor with Leadscrew|1|$25.99|https://www.amazon.com/gp/product/B01DVD87Q6/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1|
-|M3 x 30 Bolt|4|$0.52|https://www.mcmaster.com/92095a187|
-|Total: |5|$26.51| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $79.53
+ 3xCOG MSRP: $0.00
